@@ -1,0 +1,75 @@
+{
+    "name": "Nevatech",
+    "description": "API Management and SOA Governance for enterprises and developers",
+    "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/27-nevatech.jpg",
+    "tags": [
+        "api management other",
+        "api provider",
+        "api service provider",
+        "have api",
+        "management"
+    ],
+    "created": "2019-12-19",
+    "modified": "2019-12-19",
+    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/nevatech\/master\/apis.json",
+    "specificationVersion": "0.14",
+    "apis": [
+        {
+            "name": "Nevatech",
+            "description": null,
+            "image": "http:\/\/kinlane-productions.s3.amazonaws.com\/screen-capture-api\/27-nevatech.jpg",
+            "humanURL": "http:\/\/www.nevatech.com\/",
+            "baseURL": "",
+            "tags": [],
+            "properties": [
+                {
+                    "type": "x-openapi",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/nevatech-openapi.json"
+                },
+                {
+                    "type": "x-postman-collecction",
+                    "url": "https:\/\/raw.githubusercontent.com\/api-evangelist\/1forge\/master\/nevatech-postman-collection.json"
+                }
+            ]
+        }
+    ],
+    "include": [],
+    "x-common": [
+        {
+            "type": "Blog",
+            "url": "http:\/\/www.nevatech.com\/blog"
+        },
+        {
+            "type": "Blog RSS",
+            "url": "http:\/\/www.nevatech.com\/blog\/syndication.axd"
+        },
+        {
+            "type": "Crunchbase",
+            "url": "https:\/\/crunchbase.com\/organization\/navtech"
+        },
+        {
+            "type": "Email",
+            "url": "info@nevatech.com"
+        },
+        {
+            "type": "Email",
+            "url": "sales@nevatech.com"
+        },
+        {
+            "type": "Email",
+            "url": "partners@nevatech.com"
+        },
+        {
+            "type": "Email",
+            "url": "support@nevatech.com"
+        },
+        {
+            "type": "Twitter",
+            "url": "https:\/\/twitter.com\/nevatechinc"
+        },
+        {
+            "type": "Website",
+            "url": "http:\/\/www.nevatech.com\/"
+        }
+    ]
+}
