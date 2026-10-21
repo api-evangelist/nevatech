@@ -1,23 +1,63 @@
 aid: nevatech
+
 name: Nevatech
-description: 'Nevatech is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+description: "Nevatech provides a comprehensive API Management and Governance platform called Sentinet, offering tools for API authentication, security, monitoring, analytics, transformation, routing, version control, and lifecycle management. Their solutions support on‑premises, cloud, and hybrid deployments, enabling enterprises to discover, catalog, and secure APIs across the organization."
+
 url: https://raw.githubusercontent.com/api-evangelist/nevatech/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-21 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-21'
+
 modified: '2026-10-21'
+
 tags:
-- Company
-apis: []
+- API Management
+- Governance
+- Security
+- Integration
+- Enterprise
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Hosts
+  url: hosts/nevatech-hosts.yml
+- type: ChangeLog
+  url: https://nevatech.com/docs/Sentinet/6.5/articles/Release-Notes/index.html
+- type: DomainSecurity
+  url: security/nevatech-domain-security.yml
 - type: Website
   url: https://nevatech.com/
+- type: Documentation
+  url: https://nevatech.com/how-it-works/api-developer-portal
+- type: APIReference
+  url: https://nevatech.com/how-it-works/api-developer-portal
+- type: GettingStarted
+  url: https://nevatech.com/free-trial
+- type: Support
+  url: https://nevatech.com/support
+- type: Blog
+  url: https://nevatech.com/blog
+- type: PrivacyPolicy
+  url: https://nevatech.com/privacy-policy
+
+apis: []
+x-enrichment:
+  date: '2026-10-21'
+  status: enriched
+  artifacts_added: 8
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

@@ -1,0 +1,44 @@
+generated: '2026-10-21'
+method: probed
+source: https://nevatech.com/privacy-policy
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://nevatech.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "You are entitled to know whether we hold information about you and, if we do (subject to certain limitations), to have access to that information and have it corrected if it is inaccurate or out of date."
+    section: Access to Your Personal Information
+    note: Provides data subject rights to access and correction.
+  data_retention:
+    evidence:
+      - source: https://nevatech.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "Nevatech strictly protects the security of your Personal Information and honors your choices for its intended use. ... Your Personal Information is never shared outside Nevatech without your permission."
+    section: Security of Your Personal Information
+    note: Implies retention controls but does not specify period.
+  subprocessors:
+    evidence:
+      - source: https://nevatech.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "In certain instances, we may make your information available to third parties with whom we have a relationship where that third party is providing services on our behalf. We will only provide those third parties with information that is necessary for them to perform the services and we take measures to protect your information."
+    section: Control of Your Personal Information
+    note: Discloses use of subprocessors.
+  data_residency:
+    evidence:
+      - source: https://nevatech.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "Your information shall be stored in the United States or any other country where Nevatech, its subsidiaries, affiliates or agents are located."
+    section: Security of Your Personal Information
+    note: States data residency location.
+  incident_notification:
+    evidence:
+      - source: https://nevatech.com/privacy-policy
+        http_status: 200
+        fetched: "true"
+        quote: "Nevatech strictly protects the security of your Personal Information and honors your choices for its intended use. We carefully protect your data from loss, misuse, unauthorized access or disclosure, alteration or destruction."
+    section: Security of Your Personal Information
+    note: Implies security measures but does not explicitly mention breach notification.
